@@ -36,11 +36,30 @@ async function getWord(){
 
     //---------synonoms-----
 
-    
     const one_synonoms = data[0].meanings[0].synonyms[0];
-    const two_synonoms = data[0].meanings[0].synonyms[1]
+    const two_synonoms = data[0].meanings[0].synonyms[1];
+    if(one_synonoms == undefined && two_synonoms == undefined){
+    
+     const temp = data[0].meanings[1].synonyms[0];
+     const temp1 = data[0].meanings[1].synonyms[1]
+
     const alike =  document.querySelector('.Synonyms');
-    alike.innerHTML = "Synonyms: " + one_synonoms + " , "  + two_synonoms;
+    alike.innerHTML = "Synonyms: " + temp + " ; " +  temp1;
+    } 
+        else {
+
+    const alike =  document.querySelector('.Synonyms');
+    alike.innerHTML = "Synonyms: " + one_synonoms + " ; "  + two_synonoms;
+    }
+    
+
+
+
+
+
+
+
+
     
 }
 
