@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+
+}
+
+
+.main_body{
+    height: 51vw;
+    background: rgb(180,41,193);
+    background: linear-gradient(32deg, rgba(180,41,193,1) 44%, rgba(151,17,228,1) 64%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card{
+    height: 25vw;
+    background: rgb(180,41,193);
+    background: linear-gradient(32deg, rgba(180,41,193,1) 60%, rgba(144,148,236,1) 40%);
+    width: 30vw;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 5px;
+
+
+}
+
+.Search{
+    display: flex;
+    justify-self: center;
+    padding-left: 100px;
+    margin-top: 20px;
+    
+}
+
+.Search input{
+    border-radius: 5px;
+    border-color: rgb(11, 0, 0);
+    border-width: 3px;
+    border-top: 0;
+    border-left: 0;
+    font-weight: bold;
+    width: 20vw;
+    height: 2vw;
+    font-size: 20px;
+    background-color: rgba(144,148,236,1);
+}
+.Search ::placeholder{
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.Search button{
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: rgba(180,41,193,1);
+    height: 2vw;
+    width: 2vw;
+    margin-top: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.Word{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.Phonetics{
+    margin-left: 30px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: rgb(229, 196, 196);
+}
+
+
+.Definition{
+    margin-left: 30px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.Synonyms{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+
+}
+
+.footer{
+    height: 2vw;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(188, 13, 188);
+    text-shadow: 1px 1px rgb(246, 92, 246);
+    color: rgb(54, 1, 54);
+}
